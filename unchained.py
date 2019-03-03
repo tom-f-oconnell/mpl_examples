@@ -60,5 +60,5 @@ def update(*args):
     return lines
 
 # Construct the animation, using the update function as the animation director.
-anim = animation.FuncAnimation(fig, update, interval=10)
+anim = animation.FuncAnimation(fig, update, interval=30)
 plt.show()
