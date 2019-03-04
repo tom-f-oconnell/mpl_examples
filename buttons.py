@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import numpy as np
+import matplotlib
+matplotlib.use('webagg')
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button
 
